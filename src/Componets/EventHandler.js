@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 
-function useEventHandler({ todos, setTodos, editingId, setEditingId }) {
+function useEventHandler({ todos, setTodos, setEditingId }) {
   //--deleteTodo-----------------------------------
   const deleteTodo = useCallback(
     (id) => {
@@ -14,7 +14,16 @@ function useEventHandler({ todos, setTodos, editingId, setEditingId }) {
     setEditingId(id); // 👈 Set editing ID to trigger edit mode in UI
   };
 
-  return { deleteTodo, startEditTodo };
+  // ---------------------toggle--------------
+  function toggleComplete(id) {
+    setTodos((prevTodos) =>
+      prevTodos.map((todo) =>
+        todo.id === id ? { ...todo, completed: !todo.completed } : todo
+      )
+    );
+  }
+  
+  return { deleteTodo, startEditTodo , toggleComplete};
 }
 
 export default useEventHandler;
