@@ -1,12 +1,23 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#  To-Do React App
+A minimal, user-friendly **To-Do List** app built using **React** + **Vite**.  
+It allows users to add, delete, edit, and mark tasks as completed, with a clean UI using utility-first CSS .
+---
+## 🚀 Features
+- ✅ Add new tasks
+- ✅ Delete tasks
+- ✅ Edit existing tasks
+- ✅ Mark tasks as complete/incomplete
+- ✅ Responsive and styled UI 
+---
+##  Project Structure
+```bash
+src/
+├── components/
+│   ├── EventHandler.js       # Contains add/edit/delete/complete logic handlers
+│   ├── Footer.jsx            # App footer (optional)
+│   ├── Header.jsx            # App header/title
+│   ├── ToDoItem.jsx          # Single task UI with edit/delete/complete
+│   └── ToDoList.jsx          # Maps through tasks, renders ToDoItem list
+├── App.jsx                   # Main app, manages state
+├── main.jsx                  # App entry point
+└── index.css                 # Global styles (Tailwind or custom CSS)
