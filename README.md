@@ -41,6 +41,7 @@ git clone https://github.com/RAVI8054/ToDo_React_App.git
 cd ToDo_React_App
 
 3. Install dependencies
+    bash
     npm install
 4. Start the development server
     npm run dev
