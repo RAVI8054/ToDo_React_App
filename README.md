@@ -14,10 +14,10 @@ It allows users to add, delete, edit, and mark tasks as completed, with a clean 
 src/
 ├── components/
 │   ├── EventHandler.js       # Contains add/edit/delete/complete logic handlers
-│   ├── Footer.jsx            # App footer (optional)
+│   ├── Footer.jsx            # App footer 
 │   ├── Header.jsx            # App header/title
 │   ├── ToDoItem.jsx          # Single task UI with edit/delete/complete
 │   └── ToDoList.jsx          # Maps through tasks, renders ToDoItem list
 ├── App.jsx                   # Main app, manages state
 ├── main.jsx                  # App entry point
-└── index.css                 # Global styles (Tailwind or custom CSS)
+└── index.css                 # Global styles (Tailwind )
