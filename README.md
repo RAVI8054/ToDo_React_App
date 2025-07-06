@@ -35,8 +35,11 @@ src/
 Follow these step-by-step instructions to run the To-Do React App on your local machine:
 ### 1. Make sure you have Node.js installed
 2. Clone the GitHub repository && Then navigate into the project folder:
-  git clone https://github.com/RAVI8054/ToDo_React_App.git
-  cd ToDo_React_App
+ ### Clone the Repository
+```bash
+git clone https://github.com/RAVI8054/ToDo_React_App.git
+cd ToDo_React_App
+
 3. Install dependencies
     npm install
 4. Start the development server
