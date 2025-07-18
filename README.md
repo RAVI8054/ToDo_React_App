@@ -1,6 +1,10 @@
 #  To-Do React App
-A minimal, user-friendly **To-Do List** app built using **React** + **Vite**.  
-It allows users to add, delete, edit, and mark tasks as completed, with a clean UI using utility-first CSS .
+## 📌 Overview
+- A minimal, user-friendly **To-Do List** app built with **React** and **Vite**.  
+- Allows users to **add**, **delete**, **edit**, and **mark tasks as completed**.  
+- Uses **React Router DOM** for client-side routing and smooth navigation between pages.  
+- Implements **UUID** to generate unique IDs for each task.  
+- Styled with **utility-first CSS** for a clean and responsive user interface.  
 ---
 🔗 GitHub Repository
 📎 https://github.com/RAVI8054/ToDo_React_App
@@ -26,7 +30,7 @@ src/
 └── index.css                 # Global styles (Tailwind )
 ---
 ## ⚙️ Technologies Used
-- ⚛️ React (Functional Components + Hooks)
+- ⚛️ React (Functional Components + Hooks+react-router)
 - ⚡ Vite
 - 🎨 CSS (tailwind)
 - ✅ JavaScript (ES6+)
